@@ -49,6 +49,8 @@ export TOOL_DRIFTCTL_VERSION=0.40.0
 export TOOL_GUM_VERSION=0.14.3
 # Available versions: https://github.com/kubernetes/minikube/releases
 export TOOL_MINIKUBE_VERSION=1.33.1
+# Available versions: https://github.com/junegunn/fzf/releases
+export TOOL_FZF_VERSION=0.54.3
 
 SCRIPT_PATH=$(dirname $(readlink -f "${BASH_SOURCE:-$0}"))
 
