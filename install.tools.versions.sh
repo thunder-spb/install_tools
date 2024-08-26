@@ -8,6 +8,8 @@ export TOOL_KUBELOGIN_VERSION=0.0.27
 export TOOL_HELM_VERSION=3.10.0
 # Available versions: https://github.com/codacy/helm-ssm/releases
 export TOOL_HELM_SSM_VERSION=3.1.9
+# Available versions: https://github.com/databus23/helm-diff/releases
+export TOOL_HELM_DIFF_VERSION=3.9.9
 # Available versions: https://github.com/helmfile/helmfile/releases
 export TOOL_HELMFILE_VERSION=1.0.0-rc.4
 # Available versions: https://github.com/weaveworks/eksctl/releases
