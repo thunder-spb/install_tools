@@ -10,6 +10,10 @@ export TOOL_HELM_VERSION=3.10.0
 export TOOL_HELM_SSM_VERSION=3.1.9
 # Available versions: https://github.com/databus23/helm-diff/releases
 export TOOL_HELM_DIFF_VERSION=3.9.9
+# Available versions: https://github.com/dadav/helm-schema/releases
+export TOOL_HELM_SCHEMA_VERSION=0.14.1
+# Available versions: https://github.com/norwoodj/helm-docs/releases
+export TOOL_HELM_DOCS_VERSION=1.14.2
 # Available versions: https://github.com/helmfile/helmfile/releases
 export TOOL_HELMFILE_VERSION=1.0.0-rc.4
 # Available versions: https://github.com/weaveworks/eksctl/releases
@@ -59,6 +63,8 @@ export TOOL_MINIKUBE_VERSION=1.33.1
 export TOOL_FZF_VERSION=0.54.3
 # Available versions: https://releases.hashicorp.com/vault
 export TOOL_VAULT_VERSION=1.17.3
+# Available versions: https://github.com/homeport/dyff/releases
+export TOOL_DYFF_VERSION=1.9.2
 
 SCRIPT_PATH=$(dirname $(readlink -f "${BASH_SOURCE:-$0}"))
 
