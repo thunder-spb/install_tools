@@ -9,10 +9,10 @@ HELM_PLUGIN_DIR="$(helm env | grep HELM_PLUGINS | cut -d\" -f2)/helm-docs"
 mkdir -p ${HELM_PLUGIN_DIR}
 
 wget -qO- https://github.com/norwoodj/helm-docs/releases/download/v${TOOL_HELM_DOCS_VERSION}/helm-docs_${TOOL_HELM_DOCS_VERSION}_${OS}_${ARCH}.tar.gz | tar xz -C ${HELM_PLUGIN_DIR} \
-  && chmod +x ${HELM_PLUGIN_DIR}
+  && chmod +x ${HELM_PLUGIN_DIR}/helm-docs
 
 cat > ${HELM_PLUGIN_DIR}/plugin.yaml <<EOF
-name: "docs"
+name: "gendocs"
 # Version is the version of Helm plus the number of official builds for this
 # plugin
 version: "${TOOL_HELM_DOCS_VERSION}"

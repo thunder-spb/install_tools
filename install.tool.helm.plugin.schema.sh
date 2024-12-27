@@ -9,7 +9,7 @@ HELM_PLUGIN_DIR="$(helm env | grep HELM_PLUGINS | cut -d\" -f2)/helm-schema"
 mkdir -p ${HELM_PLUGIN_DIR}
 
 wget -qO- https://github.com/dadav/helm-schema/releases/download/${TOOL_HELM_SCHEMA_VERSION}/helm-schema_${TOOL_HELM_SCHEMA_VERSION}_${OS}_${ARCH}.tar.gz | tar xz -C ${HELM_PLUGIN_DIR} \
-  && chmod +x ${HELM_PLUGIN_DIR}
+  && chmod +x ${HELM_PLUGIN_DIR}/helm-schema
 
 cat > ${HELM_PLUGIN_DIR}/plugin.yaml <<EOF
 name: "schema"

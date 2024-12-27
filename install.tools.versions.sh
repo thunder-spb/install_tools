@@ -2,6 +2,12 @@
 
 # Available versions: https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 export TOOL_KUBECTL_VERSION=1.31.0
+# Available versions: https://github.com/alcideio/rbac-tool/releases
+export TOOL_KUBECTL_RBAC_TOOL_VERSION=1.19.0
+# Available versions: https://github.com/chenjiandongx/kubectl-images/releases
+export TOOL_KUBECTL_IMAGES_VERSION=0.6.3
+# Available versions: https://github.com/corneliusweig/ketall/releases
+export TOOL_KUBECTL_GETALL_VERSION=1.3.8
 # Available versions: https://github.com/Azure/kubelogin/releases
 export TOOL_KUBELOGIN_VERSION=0.0.27
 # Available versions: https://github.com/helm/helm/releases
@@ -28,7 +34,7 @@ export TOOL_OC_VERSION=4.10.45
 # Available versions: https://github.com/yannh/kubeconform/releases
 export TOOL_KUBECONFORM_VERSION=0.5.0
 # Available versions: https://github.com/hashicorp/terraform/releases
-export TOOL_TF_VERSION=1.0.9
+export TOOL_TF_VERSION=1.9.6
 # Available versions: https://github.com/terraform-linters/tflint/releases
 export TOOL_TFLINT_VERSION=0.20.3
 # Available versions: https://github.com/terraform-docs/terraform-docs/releases

@@ -7,5 +7,6 @@ wget -nv -O /tmp/tf.zip https://releases.hashicorp.com/terraform/${TOOL_TF_VERSI
   && unzip -o /tmp/tf.zip -d ${TARGET_BIN} \
   && rm -vf /tmp/tf.zip \
   && chmod 755 ${TARGET_BIN}/terraform \
+  && rm -f ${TARGET_BIN}/LICENSE.txt \
   && mkdir -p ~/.terraform.d/plugins \
   && terraform -v
